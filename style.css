@@ -53,12 +53,12 @@ body {
     margin: calc(10%/6);
 }
 
-#paragraphlocalfood {
+#title {
     text-align: center;
     font-size: 22px;
 }
 
-#paragraphlocalfoodsource {
+#subtitle {
     text-align: center;
     font-size: 16px;
 }
