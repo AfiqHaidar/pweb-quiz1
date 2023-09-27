@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="navigation"></div>
+
+    profile
+
+    <script>
+        // Load the navigation template dynamically
+        fetch("../navigation.html")
+            .then((response) => response.text())
+            .then((html) => {
+                document.getElementById("navigation").innerHTML = html;
+            })
+            .catch((error) => {
+                console.error("Error loading navigation:", error);
+            });
+    </script>
+</body>
+</html>
